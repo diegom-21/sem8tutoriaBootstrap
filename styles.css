@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.nav-link:hover{
+    font-weight: bold ;
+    border-bottom: 1px solid black ;
+}
+
+
+.carousel-item img {
+    height: 540px; 
+    object-fit: cover; 
+    filter: brightness(0.6);
+}
+
+
+.card{
+    transition: all 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+#section-locales {
+    transition: all 0.3s;
+}
+
+#section-locales:hover {
+    transform: scale(1.03);
+}
